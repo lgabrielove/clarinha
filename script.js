@@ -14,7 +14,7 @@ document.querySelectorAll('.link').forEach(link => {
 
 // Função do contador de tempo
 function countdownTimer() {
-    var countDownDate = new Date("Oct 20, 2024 18:00:00").getTime();
+    var countDownDate = new Date("Oct 20, 2024 17:00:00").getTime();
 
     var countdown = setInterval(function () {
         var now = new Date().getTime();
