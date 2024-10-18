@@ -1,0 +1,95 @@
+/* Estilo da página */
+body {
+    margin: 0;
+    padding: 0;
+    background-color:white; /* Fundo mais moderno */
+    font-family: 'Poppins', sans-serif;
+    color: #c78c28;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    text-align: center;
+    background-size: cover; /* Para cobrir todo o fundo */
+    background-position: center; /* Para centralizar a imagem */
+    opacity: 0;
+    transition: opacity 5s ease; /* Tempo e suavidade da transição */
+}
+
+body.fade-in {
+    opacity: 1;
+    background-image: url("/clarinha/imgs/Home2.png");
+}
+
+/* Estilo do container principal */
+.container {
+    background-color: rgba(255, 255, 255, 0.7); /* Cor de fundo branca com 80% de opacidade */
+    padding: 20px; /* Ajuste o padding conforme necessário */
+    border-radius: 10px; /* Para bordas arredondadas, se desejado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar um efeito de profundidade */
+    max-width: 800px; /* Largura máxima do container */
+    width: 100%; /* Para ocupar 100% da largura disponível */
+}
+
+/* Estilo dos títulos */
+h1 {
+    font-size: 2.5em;
+    margin-top: 0; /* Remove a margem superior do parágrafo */
+    margin-bottom: 0; /* Remove a margem inferior do parágrafo, se necessário */
+}
+
+h2 {
+    margin-top: 0; /* Remove a margem superior do parágrafo */
+    margin-bottom: 0; /* Remove a margem inferior do parágrafo, se necessário */
+}
+
+/* Texto da mensagem */
+.message {
+    font-size: 1.2em;
+    margin-bottom: 20px;
+    color: #c78c28;
+}
+
+/* Estilo do iframe do Google Maps */
+iframe {
+    border: none;
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+/* Estilo do contador */
+.countdown {
+    font-size: 1.5em;
+    color: #c78c28; /* Cor amarela para destacar o contador */
+    
+}
+
+.countdown h2 {
+    margin-bottom: 5px; /* Ajuste o valor conforme necessário */
+}
+
+.countdown p {
+    margin-top: 0; /* Remove a margem superior do parágrafo */
+    margin-bottom: 0; /* Remove a margem inferior do parágrafo, se necessário */
+}
+
+
+/* Adicionar um pouco de espaçamento */
+#countdown-timer {
+    margin-top: 5px;
+}
+
+/* Links ou botões (se houver algum link) */
+a {
+    color: #c78c28;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
