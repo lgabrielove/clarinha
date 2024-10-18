@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Nosso Encontro Especial</title>
+        <link rel="stylesheet" href="local.css">
+        <!-- Fonte Poppins -->
+        <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+            <h1>Temos um combinado</h1>
+            <p class="message">Nem consigo imaginar como você vai estar perfeita nesse dia</p>
+
+            <!-- Google Maps incorporado -->
+            <iframe 
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3950.4172461923154!2d-34.872512224992235!3d-8.058851491968706!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x7ab19811df84147%3A0xcd8b4892c60c921!2sMoendo%20na%20Laje!5e0!3m2!1spt-BR!2sbr!4v1729208311173!5m2!1spt-BR!2sbr" 
+                width="600" 
+                height="450" 
+                style="border:0;" 
+                allowfullscreen="" 
+                loading="lazy" 
+                referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+
+            <!-- Contador de horas -->
+            <div class="countdown">
+                <H2>20/10 - 18H</H2>
+                <p id="countdown-timer"></p>
+            </div>
+        </div>
+
+        <!-- Link para o arquivo script.js -->
+        <script>
+            window.onload = function() {
+                document.body.classList.add('fade-in');
+            };
+        </script>
+        
+        <script src="script.js"></script>
+    </body>
+</html>
